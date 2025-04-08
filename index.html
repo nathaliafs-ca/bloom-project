@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Nanum+Myeongjo&family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <main class="flowers">
+        <div class="flower selected">
+            <picture>
+                <source srcset="./src/images/rosab.jpg" media="(min-width: 768px)">
+                <img class="image" src="./src/images/rosap.jpg" alt="Rose Flower">
+            </picture>
+            <div class="content">
+                <h2 class="flower-name">Rose</h2>
+                <p class="description">The rose is a timeless symbol of beauty and emotion, cherished for its elegant blooms and rich fragrance. Botanically part of the Rosa genus, it comes in many varieties and colors—each carrying distinct meanings: red for love, white for purity, yellow for friendship, pink for admiration, and black for farewell. With roots in mythology, religion, and literature, the rose represents everything from passion and mystery to transformation and remembrance, making it one of the most meaningful and culturally significant flowers in the world.</p>
+            </div>
+        </div>
+        <div class="flower">
+            <picture>
+                <source srcset="./src/images/Buttercupb.jpg" media="(min-width: 768px)" />
+                <img class="image" src="./src/images/Buttercupp.jpg" alt="Buttercup Flower" />
+            </picture>
+            <div class="content">
+                <h2 class="flower-name">Buttercup</h2>
+                <p class="description">The buttercup is a bright, cheerful flower from the Ranunculus genus, known for its shiny, yellow petals and simple charm. Often found in meadows and fields, it symbolizes childlike joy, innocence, and humility, but can also represent unrequited love or ingratitude in older folklore. Despite its sweet appearance, many buttercup species are mildly toxic. With its sun-like glow and playful associations—like holding one under the chin to "see if you like butter"—the buttercup is a nostalgic symbol of carefree youth and natural beauty.</p>
+            </div>
+        </div>
+
+        <div class="flower">
+            <picture>
+                <source srcset="./src/images/Bluebellb.jpg" media="(min-width: 768px)" />
+                <img class="image" src="./src/images/Bluebellp.jpg" alt="Bluebell Flower" />
+            </picture>
+            <div class="content">
+                <h2 class="flower-name">Bluebell</h2>
+                <p class="description">The bluebell is a delicate, bell-shaped flower known for its striking violet-blue color and its carpet-like blooms in spring woodlands. Belonging to the Hyacinthoides genus, it symbolizes humility, gratitude, and everlasting love. In folklore, bluebells are often linked to fairy magic and mystery, said to summon enchantment or mark hidden realms. Though beautiful, they’re also a protected species in some regions due to their rarity. With their graceful nodding heads and enchanting presence, bluebells evoke a sense of quiet wonder and deep emotional connection to nature</p>
+            </div>
+        </div>
+        <div class="flower">
+            <picture>
+                <source srcset="./src/images/carnationb.jpg" media="(min-width: 768px)" />
+                <img class="image" src="./src/images/Carnationp.jpg" alt="Carnation Flower" />
+            </picture>
+            <div class="content">
+                <h2 class="flower-name">Carnation</h2>
+                <p class="description">The carnation, from the Dianthus genus, is a ruffled, fragrant flower celebrated for its long-lasting blooms and rich symbolism. Often associated with love, devotion, and admiration, its meaning shifts with color: red for deep love, white for purity and remembrance, pink for gratitude (and often linked to a mother’s love), and yellow for disappointment or rejection. With roots in ancient Greece and Christian legend, carnations are widely used in ceremonies and celebrations around the world. Their elegance and emotional depth make them a favorite for expressing heartfelt sentiments.</p>
+            </div>
+        </div>
+
+        <div class="flower">
+            <picture>
+                <source srcset="./src/images/Daffodilb.jpg" media="(min-width: 768px)" />
+                <img class="image" src="./src/images/Daffodilbp.jpg" alt="Daffodil flower" />
+            </picture>
+            <div class="content">
+                <h2 class="flower-name">Daffodil</h2>
+                <p class="description">The daffodil, also known as Narcissus, is a bright, trumpet-shaped flower that blooms in early spring, symbolizing renewal, hope, and new beginnings. Its golden yellow color is especially associated with happiness and positivity, while in some cultures, it also represents prosperity and good fortune. Linked to the Greek myth of Narcissus, the flower can also carry themes of self-reflection. Daffodils are often given to uplift and inspire, making them a cherished emblem of fresh starts and the return of light after dark seasons.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="buttons">
+        <li>
+            <button class="rose button selected">
+                <div class="button-inner">
+                    <img src="./src/images/rosai.jpg" alt="Rose icon">
+                </div>
+            </button>
+        </li>
+        <li>
+            <button class="buttercup button">
+                <div class="button-inner">
+                    <img src="./src/images/Buttercupi.jpg" alt="Buttercup icon" />
+                </div>
+            </button>
+        </li>
+        <li>
+            <button class="bluebell button">
+                <div class="button-inner">
+                    <img src="./src/images/Bluebelli.jpg" alt="Bluebell icon" />
+                </div>
+            </button>
+        </li>
+        <li>
+            <button class="carnation button">
+                <div class="button-inner">
+                    <img src="./src/images/Carnationi.jpg" alt="Carnation icon" />
+                </div>
+            </button>
+        </li>
+        <li>
+            <button class="daffodil button">
+                <div class="button-inner">
+                    <img src="./src/images/Daffodilbi.jpg" alt="Daffodil icon" />
+                </div>
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
